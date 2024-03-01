@@ -75,7 +75,7 @@ function ModalCreate() {
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
-            <Button type="submit">Submit</Button>
+            <Button variant='primary' type="submit">Submit</Button>
           </Modal.Footer>
         </form>
       </Modal>
